@@ -1,6 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="Theme.AshashuniSalat" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your theme here -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-    </style>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Keep only generic styles here if needed -->
 </resources>
