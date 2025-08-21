@@ -2,22 +2,23 @@
   <application
       android:label="আশাশুনি নামাজ"
       android:icon="@mipmap/ic_launcher"
-      android:roundIcon="@mipmap/ic_launcher"
+      android:roundIcon="@mipmap/ic_launcher_round"
       android:theme="@style/Theme.Material3.DayNight.NoActionBar">
       <activity
-    android:name=".ui.MainActivity"
-    android:exported="true">
-    <intent-filter>
-        <action android:name="android.intent.action.MAIN" />
-        <category android:name="android.intent.category.LAUNCHER" />
-    </intent-filter>
-</activity>
+          android:name=".ui.MainActivity"
+          android:exported="true">
+          <intent-filter>
+              <action android:name="android.intent.action.MAIN" />
+              <category android:name="android.intent.category.LAUNCHER" />
+          </intent-filter>
+      </activity>
 
       <receiver
           android:name=".widget.SalatWidgetReceiver"
           android:exported="false">
           <intent-filter>
               <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+              <action android:name="com.ashashuni.salat.action.REFRESH" />
           </intent-filter>
           <meta-data
               android:name="android.appwidget.provider"
