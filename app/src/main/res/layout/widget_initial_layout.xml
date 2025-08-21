@@ -3,16 +3,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/widget_bg_tint"
-    android:gravity="center"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="8dp">
 
     <TextView
-        android:id="@+id/widget_text"
+        android:id="@+id/widget_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Loading..."
+        android:text="Salat Widget"
         android:textColor="@color/widget_text"
-        android:textSize="16sp"
-        android:gravity="center"/>
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/widget_subtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Prayer Time"
+        android:textColor="@color/widget_subtext"
+        android:textSize="14sp" />
 </LinearLayout>
